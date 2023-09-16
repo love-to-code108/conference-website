@@ -1,0 +1,88 @@
+
+#VenueSectionWithoutTheNavbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+
+    background-color: white;
+}
+
+.theMapOfTheVenueSection {
+
+    margin-left: 8rem;
+
+}
+
+.TheMap {
+    width: 40rem;
+    height: 40rem;
+
+}
+
+
+/* ADDING MEDIA QUERIES BELOW HERE */
+
+
+
+@media (max-width:1536px) {
+    .TheMap {
+        width: 30rem;
+        height: 30rem;
+
+    }
+
+    
+}
+
+
+@media (max-width:1300px) {
+    #VenueSectionWithoutTheNavbar {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 2rem;
+        width: 100%;
+        max-width: 1920px;
+        height: 100vh;
+    }
+
+    .theMapOfTheVenueSection {
+
+        margin-left: 0rem;
+
+    }
+
+    .TheMap {
+        width: 22rem;
+        height: 22rem;
+
+    }
+
+    .writtingWrapperForVenue{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 4rem;
+    }
+}
+
+#VenueBody{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9e9;
+}

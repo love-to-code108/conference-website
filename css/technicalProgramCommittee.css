@@ -1,0 +1,58 @@
+#TechnicalProgramCommittee{
+
+    padding-top: 8rem;
+    background-color: white;
+
+    width: 100%;
+    max-width: 1920px;
+    /* height: 100vh; */
+}
+
+#gridContainerTechnicalProgramCommittee{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4px;
+    row-gap: 2px;
+
+}
+
+.gridCellTechnicalProgramCommitteeHeading{
+    padding: 1rem 1rem;
+    color: #393464;
+
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.gridCellTechnicalProgramCommittee{
+
+    padding: 0rem 1rem;
+
+    background-color: #f1f1f1;
+}
+
+.Even{
+    background-color: white;
+}
+
+#TechnicalProgramCommitteBody{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9e9;
+}
+
+@media (min-width:1920px) {
+    #TechnicalProgramCommittee{
+
+        padding-top: 8rem;
+        background-color: white;
+    
+        width: 100%;
+        max-width: 1920px;
+        height: 100vh;
+    }
+}

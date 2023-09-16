@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKING THE FAVICON BELOW -->
+    <link rel="shortcut icon" href="../assets/png/officialLogoForConference1.png" type="image/x-icon">
+
+
+    <!-- LINKING THE FONTS GOES BELOW -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Courgette&family=Dancing+Script&family=JetBrains+Mono&family=Jost&family=Montserrat&family=Open+Sans&family=Pacifico&family=Poppins&family=Satisfy&family=Sora&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!-- THE TITLE GOES BELOW -->
+    <title>ICCOGCC</title>
+
+
+    <!-- IMPORTING THE STYLESHEETS BELOW -->
+    <link rel="stylesheet" href="../css/outputHomePage.css">
+    <link rel="stylesheet" href="../css/registrations.css">
+
+
+</head>
+
+<body id="RegistrationBody">
+
+
+
+    <!-- THE NAVBAR GOES BELOW -->
+    <div id="NavBar" class="flex justify-center items-center">
+
+        <div class="flex justify-center items-center navBarLogo conferenceLogoNavbar">
+
+            <img class="logoImageEdit" src="../assets/png/officialLogoForConference1.png" alt="">
+
+        </div>
+
+        <div class="navBarLogoUem">
+            <img src="../assets/svg/Group.svg" alt="">
+        </div>
+
+
+        <div id="hamburgerMenu" onclick="HamburgerMenuSliding()">
+            <div class="hamburgerMenuBars hamburgerMenuBar1"></div>
+            <div class="hamburgerMenuBars hamburgerMenuBar2"></div>
+            <div class="hamburgerMenuBars hamburgerMenuBar3"></div>
+        </div>
+
+        <div id="hamburgerMenuAnimation" class="font-sora text-xl font-black text-[#393464] drop-shadow-lg">
+            <a class="my-1" href="../index.html">About Us</a>
+            <a class="my-1" href="./committees.html">Committe</a>
+            <a class="my-1" href="./registration.html">Registration</a>
+            <a class="my-1" href="./">Gallery</a>
+            <a class="my-1" href="./venue.html">Venue</a>
+            <a class="my-1" href="./technicalProgramCommittee.html">Technical Committe</a>
+            <a class="my-1" href="./advisoryCommittee.html">Advisory Committee</a>
+        </div>
+
+
+        <!-- <div class="orgLogo">
+            <img class="orgLogoEdit" src="./assets/png/officialLogoForConference1.png" alt="">
+        </div> -->
+
+        <div>
+            <ul id="NavBarLargeScreen" class="flex w-[3/5] font-sora">
+
+                <a class="relative" href="../index.html">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline41">About Us</li>
+                </a>
+
+
+                <a class="relative" href="./committees.html">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline1">Committe</li>
+                </a>
+
+                <a class="relative" href="./registration.html">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline2">Registration</li>
+                </a>
+
+                <a class="relative" href="">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline3">Gallery</li>
+                </a>
+
+
+                <a class="relative" href="./venue.html">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline5">Venue</li>
+                </a>
+
+                <a class="relative" href="./technicalProgramCommittee.html">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline6">Technical Committe</li>
+                </a>
+
+                <a class="relative" href="./advisoryCommittee.html">
+                    <li class="mr-8 text-xl font-extrabold text-[#393464]
+                2xl:mr-12 pointer HoverUnderline7">Advisory Committee</li>
+                </a>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div id="Registration" class="px-4 sm:px-16">
+        <div>
+            <p class="
+            text-[#ed3237]">*According to ICCOGCC 2024 conference registration policy, after obtaining the formal
+                acceptance by
+                e-mail, at
+                least one author of each paper must complete registration formalities including payment of full
+                registration
+                fees at the rate mentioned below.</p>
+
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+            <div class="break"></div>
+
+
+
+            <!-- THE TABLE FOR THE REGISTRATION SECTION  -->
+            <div id="tableContainer">
+                <div class="gridCellsHeadingRegistrationPage sm:text-lg">Registration Category </div>
+                <div class="gridCellsHeadingRegistrationPage sm:text-lg">Registration fees for Indian Author</div>
+                <div class="gridCellsHeadingRegistrationPage sm:text-lg">Registration fees for foreign Author</div>
+                <div class="gridCells bg-[#f0f0f0]">Regular Author Academician
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">6000 INR
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">200 USD
+
+                </div>
+                <div class="gridCells bg-white"> Regular Author from Industry
+
+                </div>
+                <div class="gridCells bg-white">7000 INR
+
+                </div>
+                <div class="gridCells bg-white">200 USD
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">Regular Author Student(Phd)
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">5000 INR
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">150 USD
+
+                </div>
+                <div class="gridCells bg-white">Regular Author Student (PG)
+
+                </div>
+                <div class="gridCells bg-white">5000 INR
+
+                </div>
+                <div class="gridCells bg-white">150 USD
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">Regular Author Student (UG)
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">5000 INR
+
+                </div>
+                <div class="gridCells bg-[#f0f0f0]">150 USD
+
+                </div>
+                <div class="gridCells bg-white">Only Attending or Accompanying
+
+                </div>
+                <div class="gridCells bg-white">2500 INR
+
+                </div>
+                <div class="gridCells bg-white">100 USD
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- MAKING SOME SPACE IN BETWEEN -->
+        <div class="break"></div>
+        <div class="break"></div>
+        <div class="break"></div>
+
+
+
+        <div>
+            <p><span class=" text-[#ed3237] font-extrabold text-lg
+                ">NOTE :</span> The above Payment include Paper Presentation and Publishing the Abstract in Scopus.
+                Other Charges
+                for
+                Journal Submission will be Announced Soon.</p>
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+            <div class="break"></div>
+
+
+
+            <p class="text-[#ed3237] text-lg
+            ">*This fee is only applicable for a single author from each paper who will be coming to present his/her
+                paper
+                in the respective venue of the conference.
+            </p>
+
+
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+            <div class="break"></div>
+
+
+
+            <!-- PAPER REGISTRATION VIA E PAYMENT FOR INDIAN AUTHORS -->
+            <p class="text-[#393464] text-2xl font-black">Paper Registration (via e-payment for Indian Authors):
+            </p>
+
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+            <div class="break"></div>
+
+            <p>
+                Bank Account Holder’s Name: University of Engineering And Management <br>
+                Bank Account Number: 61209643420 <br>
+                Bank Name: State Bank of India <br>
+                Branch: Krishi Upaj Mandi, Chomu <br>
+                Branch Code: 32024 <br>
+                IFSC Code: SBIN0032024 <br>
+            </p>
+
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+            <div class="break"></div>
+
+
+            <!-- PAPER REGISTRATION VIA E PAYMENT FOR FORIEGN AUTHORS -->
+            <p class="text-[#393464] text-2xl font-black">Paper Registration (via e-payment for Foreign Authors):
+            </p>
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+            <div class="break"></div>
+
+            <p>
+                Bank Account Holder’s Name: University of Engineering And Management, Jaipur <br>
+                Bank Account Number: 164201000001161 <br>
+                Bank Name: Indian Overseas Bank <br>
+                Branch: Sector-V, Kol-91 <br>
+                Swift Code: IOBAINBB893 <br>
+                IFSC Code: IOBA0001642 <br>
+                MICR: 700020049 <br>
+            </p>
+        </div>
+
+
+        <!-- MAKING SOME SPACE IN BETWEEN -->
+        <div class="break"></div>
+        <div class="break"></div>
+
+        <div>
+            <p class="text-[#393464] text-2xl font-black">
+                Instructions for registration
+            </p>
+
+            <!-- MAKING SOME SPACE IN BETWEEN -->
+            <div class="break"></div>
+
+            <p>
+                Kindly pay the registration fee via E- Payment (refer details above) <br>
+                Ensure to include your “ICCOGCC – Paper ID” in the transaction remark section during payment. for
+                instance
+                if your paper ID is 123, the remark section can be “ICCOGCC-123” <br>
+                Proceed below and click to Fill the ICCOGCC 2024 Registration form and submit. <br>
+            </p>
+
+
+
+        </div>
+
+        <div class="flex flex-col justify-center items-start">
+            <a href="" class="bg-[#ed3237] text-white text-xl font-black
+             px-2 py-1 mt-8">Registration Form</a>
+        </div>
+
+        <div class="break"></div>
+        <div class="break"></div>
+
+
+    </div>
+
+    <!-- THE GSAP PLUGIN GOES BELOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+    <!-- THE JAVASCRIPT LINKS WILL GO BELOW -->
+    <script src="./js/navBar.js"></script>
+    <script>
+        {
+            let counter = 0;
+            function HamburgerMenuSliding() {
+
+                counter++;
+
+                if (counter % 2 == 0) {
+
+
+                    gsap.fromTo("#hamburgerMenuAnimation", {
+                        x: -320,
+                    }, {
+                        x: 0,
+                        duration: 2,
+                        ease: "power4",
+                    });
+                }
+
+                if (counter % 2 != 0) {
+
+
+                    gsap.fromTo("#hamburgerMenuAnimation", {
+                        x: 0,
+                    }, {
+                        x: -320,
+                        duration: 2,
+                        ease: "power4",
+                    })
+                }
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+#AdvisoryCommitteeBody{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #e9e9e9;
+}
+
+#AdvisoryCommitte{
+
+    width: 100%;
+    /* height: 100svh; */
+    max-width: 1920px;
+
+    background-color: white;
+
+    padding-top: 8rem;
+}
+
+#GridContainerAdvisoryCommitte{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4px;
+
+
+}
+
+.gridCellsAdvisoryCommitteHeading{
+
+    color: #393464;
+    margin-bottom: 1rem;
+    
+}
+
+.gridCellsAdvisoryCommitte{
+     
+    padding-left:1rem ;
+}
+
+@media (min-width:2000px) {
+    #AdvisoryCommitte{
+
+        width: 100%;
+        height: 100vh;
+        max-width: 1920px;
+    
+        background-color: white;
+    
+        padding-top: 8rem;
+    }
+}

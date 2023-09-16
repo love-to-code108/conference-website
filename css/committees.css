@@ -1,0 +1,73 @@
+#Committees {
+
+    padding-top: 8rem;
+    /* height: 150vh; */
+    width: 100%;
+    max-width: 1920px;
+
+    
+
+    background-color: white;
+
+}
+
+#CommitteesBody{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e9e9e9;
+}
+
+#gridContainerCommittes {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4px;
+    row-gap: 2px;
+}
+
+.gridCellCommitties {
+    padding-left: 1rem;
+    background-color: #f1f1f1;
+
+}
+
+.gridHeadingCommitties {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #393464;
+
+    padding: 1rem 1rem;
+}
+
+@media (max-width:540px) {
+    
+    .gridCellCommitties {
+        padding: 0rem 0rem;
+        padding-left: 0.02rem;
+        background-color: #f1f1f1;
+
+    
+    }
+
+    .gridHeadingCommitties {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #393464;
+    
+        padding: 0.02rem 0.01rem;
+
+       
+    }
+
+    #gridContainerCommittes {
+
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 2px;
+        row-gap: 4px;
+    }
+}
