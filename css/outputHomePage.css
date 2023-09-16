@@ -942,7 +942,7 @@ html{
 }
 
 .logoImageEdit {
-  width: 3rem;
+  width: 6rem;
 }
 
 .orgLogo {
@@ -965,6 +965,7 @@ html{
   .navBarLogoUem{
     position: absolute;
     left: 2rem;
+    width: 6rem;
   }
 
   .conferenceLogoNavbar{
@@ -973,7 +974,7 @@ html{
   }
 }
 
-@media (min-width:1338px) {
+@media (min-width:1538px) {
   #hamburgerMenu{
     display: none;
     pointer-events: none;
@@ -1397,10 +1398,11 @@ html{
 
 .gridCells2 {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   font-family: var(--ff--sora);
   font-size: 0.9rem;
+  margin-left: 1rem;
 }
 
 .gridCellsHeading {
@@ -1710,6 +1712,10 @@ html{
     margin-left: 0.25rem;
   }
 
+  .sm\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
   .sm\:ml-4 {
     margin-left: 1rem;
   }
@@ -1798,6 +1804,10 @@ html{
     z-index: 10;
   }
 
+  .lg\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1861,6 +1871,10 @@ html{
     margin-right: 3rem;
   }
 
+  .\32xl\:mr-8 {
+    margin-right: 2rem;
+  }
+
   .\32xl\:flex {
     display: flex;
   }
@@ -1888,13 +1902,9 @@ html{
     line-height: 1;
   }
 
-  .\32xl\:text-7xl {
-    font-size: 4.5rem;
+  .\32xl\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
-  }
-
-  .\32xl\:text-\[8rem\] {
-    font-size: 8rem;
   }
 
   .\32xl\:text-lg {
