@@ -641,6 +641,10 @@ video {
   width: 3/5;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -1661,7 +1665,7 @@ html{
 @media (min-width:768px) {
   .conferenceLogo{
     display: flex;
-    opacity: 0.4;
+    opacity: 1;
   }
 }
 

@@ -1220,7 +1220,7 @@ html{
     .conferenceLogo{
 
         display: flex;
-        opacity: 0.4;
+        opacity: 1;
     }
 
 }
