@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- LINKING THE FAVICON BELOW -->
-    <link rel="shortcut icon" href="../assets/png/officialLogoForConference1.png" type="image/x-icon">
+    <title>ICCOGCC</title>
 
 
     <!-- LINKING THE FONTS GOES BELOW -->
@@ -16,21 +14,20 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Courgette&family=Dancing+Script&family=JetBrains+Mono&family=Jost&family=Montserrat&family=Open+Sans&family=Pacifico&family=Poppins&family=Satisfy&family=Sora&family=Ubuntu&display=swap"
         rel="stylesheet">
 
-    <!-- THE TITLE GOES BELOW -->
-    <title>ICCOGCC</title>
 
 
-    <!-- IMPORTING THE STYLESHEETS BELOW -->
-    <link rel="stylesheet" href="../css/inputVenue.css">
-    <link rel="stylesheet" href="../css/stylesHomePage.css">
+    <!-- LINKING THE FAVICON BELOW -->
+    <link rel="shortcut icon" href="./assets/png/officialLogoForConference1.png" type="image/x-icon">
+
+
+
+    <!-- LINKING THE STYLESHEETS BELOW -->
     <link rel="stylesheet" href="../css/outputHomePage.css">
-
+    <link rel="stylesheet" href="../css/stylesHomePage.css">
+    <link rel="stylesheet" href="../css/keynoteSpeaker.css">
 
 </head>
-
-<body id="VenueBody">
-
-
+<body>
 
     <!-- THE NAVBAR GOES BELOW -->
     <div id="NavBar" class="flex justify-center items-center">
@@ -54,14 +51,14 @@
 
         <div id="hamburgerMenuAnimation" class="font-sora text-xl font-black text-[#393464] drop-shadow-lg">
             <a class="my-1" href="./index.html">About Us</a>
-            <a class="my-1" href="./committees.html">Committe</a>
-            <a class="my-1" href="./registration.html">Registration</a>
-            <a class="my-1" href="./callForPapers.html">Call For Papers</a>
+            <a class="my-1" href="./home/committees.html">Committe</a>
+            <a class="my-1" href="./home/registration.html">Registration</a>
+            <a class="my-1" href="./home/callForPapers.html">Call For Papers</a>
             <a class="my-1" href="./index.html#ContactUs">Contact </a>
-            <a class="my-1" href="./submissions.html">Submission</a>
-            <a class="my-1" href="./keynoteSpeakers.html">Keynotes</a>
-            <a class="my-1" href="./organizers.html">Organizers</a>
-            <a class="my-1" href="./importantDates.html">Important Dates</a>
+            <a class="my-1" href="./home/submissions.html">Submission</a>
+            <a class="my-1" href="./home/keynoteSpeakers.html">Keynotes</a>
+            <a class="my-1" href="./home/organizers.html">Organizers</a>
+            <a class="my-1" href="./home/importantDates.html">Important Dates</a>
         </div>
 
 
@@ -134,87 +131,10 @@
     <!-- navbar ends -->
 
 
-    <!-- EVERYTHING IS WRAPPED INSIDE THIS DIV -->
-
-    <div id="VenueSectionWithoutTheNavbar">
-        <div class="writtingWrapperForVenue">
 
 
-
-            <!-- EVERYTHING ABOUT THE VENUE IN WRITTEN -->
-            <p class="font-sora xl:text-7xl text-[#393464] font-black
-            text-5xl">Venue</p>
-            <p class="font-sora ml-8 mt-4 
-             lg:text-sm 
-             xl:text-lg">University Of Engineering and Management , Jaipur <br>
-
-
-                Udaipudia Mod , Sikar Road, Jaipur, Rajasthan – 303807. <br>
-
-                ( 6 km. away from Chomu ) <br></p>
-
-
-
-
-
-        </div>
-
-
-
-        <!-- THE MAP GOES BELOW -->
-        <div class="theMapOfTheVenueSection">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14191.880142622616!2d75.7007074!3d27.22009055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396cffc30dacc2db%3A0xb78e5c340c935a95!2sUniversity%20of%20Engineering%20%26%20Management%20(UEM)%2C%20Jaipur!5e0!3m2!1sen!2sin!4v1693597152359!5m2!1sen!2sin"
-                allowfullscreen="" loading="lazy" class="TheMap drop-shadow-xl "
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
+    <div class="keynoteSpeaker">
+        <h1>COMING SOON</h1>
     </div>
-
-
-    <!-- THE GSAP PLUGIN GOES BELOW -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
-
-    <!-- THE JAVASCRIPT LINKS WILL GO BELOW -->
-    <script src="./js/navBar.js"></script>
-    <script>
-        {
-            let counter = 0;
-            function HamburgerMenuSliding() {
-
-                counter++;
-
-                if (counter % 2 == 0) {
-
-
-                    gsap.fromTo("#hamburgerMenuAnimation", {
-                        x: -320,
-                    }, {
-                        x: 0,
-                        duration: 2,
-                        ease: "power4",
-                    });
-                }
-
-                if (counter % 2 != 0) {
-
-
-                    gsap.fromTo("#hamburgerMenuAnimation", {
-                        x: 0,
-                    }, {
-                        x: -320,
-                        duration: 2,
-                        ease: "power4",
-                    })
-                }
-
-            }
-
-        }
-    </script>
-
 </body>
-
 </html>

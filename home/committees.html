@@ -33,13 +33,13 @@
     <!-- THE NAVBAR GOES BELOW -->
     <div id="NavBar" class="flex justify-center items-center">
 
-        <div class="flex justify-center items-center navBarLogo conferenceLogoNavbar">
+        <div class="flex justify-center items-center navBarLogo conferenceLogoNavbar sm:ml-2 cursor-pointer" onclick="goHome()">
 
             <img class="logoImageEdit" src="../assets/png/officialLogoForConference1.png" alt="">
 
         </div>
 
-        <div class="navBarLogoUem">
+        <div class="navBarLogoUem cursor-pointer" onclick="goHome()">
             <img src="../assets/svg/Group.svg" alt="">
         </div>
 
@@ -51,13 +51,15 @@
         </div>
 
         <div id="hamburgerMenuAnimation" class="font-sora text-xl font-black text-[#393464] drop-shadow-lg">
-            <a class="my-1" href="../index.html">About Us</a>
-            <a class="my-1" href="./committees.html">Committe</a>
-            <a class="my-1" href="./registration.html">Registration</a>
-            <a class="my-1" href="./">Gallery</a>
-            <a class="my-1" href="./venue.html">Venue</a>
-            <a class="my-1" href="./technicalProgramCommittee.html">Technical Committe</a>
-            <a class="my-1" href="./advisoryCommittee.html">Advisory Committee</a>
+            <a class="my-1" href="./index.html">About Us</a>
+            <a class="my-1" href="./home/committees.html">Committe</a>
+            <a class="my-1" href="./home/registration.html">Registration</a>
+            <a class="my-1" href="./home/callForPapers.html">Call For Papers</a>
+            <a class="my-1" href="./index.html#ContactUs">Contact </a>
+            <a class="my-1" href="./home/submissions.html">Submission</a>
+            <a class="my-1" href="./home/keynoteSpeakers.html">Keynotes</a>
+            <a class="my-1" href="./home/organizers.html">Organizers</a>
+            <a class="my-1" href="./home/importantDates.html">Important Dates</a>
         </div>
 
 
@@ -66,49 +68,68 @@
         </div> -->
 
         <div>
-            <ul id="NavBarLargeScreen" class="flex w-[3/5] font-sora">
+            <ul id="NavBarLargeScreen" class="flex w-[3/5] font-sora 
+            lg:mt-4">
 
                 <a class="relative" href="../index.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline41">About Us</li>
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline41">About Us</li>
                 </a>
 
 
                 <a class="relative" href="./committees.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline1">Committe</li>
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline1">Committe</li>
                 </a>
+
+                
 
                 <a class="relative" href="./registration.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline2">Registration</li>
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline2">Registration</li>
                 </a>
 
-                <a class="relative" href="">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline3">Gallery</li>
+                <a class="relative" href="./callForPapers.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline3">Call For Papers</li>
                 </a>
 
 
-                <a class="relative" href="./venue.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline5">Venue</li>
+                <a class="relative" href="#ContactUs">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline5">Contact Us</li>
                 </a>
 
-                <a class="relative" href="./technicalProgramCommittee.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline6">Technical Committe</li>
+
+
+                <a class="relative" href="./submissions.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline6">Submission</li>
                 </a>
 
-                <a class="relative" href="./advisoryCommittee.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline7">Advisory Committee</li>
+                <a class="relative" href="./keynoteSpeakers.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline7">Keynotes</li>
+                </a>
+
+
+                <a class="relative" href="./organizers.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline7">Organizers</li>
+                </a>
+
+
+                <a class="relative" href="./importantDates.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline7">Important Dates</li>
                 </a>
             </ul>
         </div>
 
 
     </div>
+
+    <!-- navbar ends -->
 
 
     <div id="Committees" class="px-2 sm:px-8 lg:px-16 font-sora">

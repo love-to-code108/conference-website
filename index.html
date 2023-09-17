@@ -41,13 +41,13 @@
     <!-- THE NAVBAR GOES BELOW -->
     <div id="NavBar" class="flex justify-center items-center">
 
-        <div class="flex justify-center items-center navBarLogo conferenceLogoNavbar">
+        <div class="flex justify-center items-center navBarLogo conferenceLogoNavbar sm:ml-2 cursor-pointer" onclick="goHome()">
 
             <img class="logoImageEdit" src="./assets/png/officialLogoForConference1.png" alt="">
 
         </div>
 
-        <div class="navBarLogoUem">
+        <div class="navBarLogoUem cursor-pointer" onclick="goHome()">
             <img src="./assets/svg/Group.svg" alt="">
         </div>
 
@@ -62,10 +62,12 @@
             <a class="my-1" href="./index.html">About Us</a>
             <a class="my-1" href="./home/committees.html">Committe</a>
             <a class="my-1" href="./home/registration.html">Registration</a>
-            <a class="my-1" href="./home/">Gallery</a>
-            <a class="my-1" href="./home/venue.html">Venue</a>
-            <a class="my-1" href="./home/technicalProgramCommittee.html">Technical Committe</a>
-            <a class="my-1" href="./home/advisoryCommittee.html">Advisory Committee</a>
+            <a class="my-1" href="./home/callForPapers.html">Call For Papers</a>
+            <a class="my-1" href="./index.html#ContactUs">Contact </a>
+            <a class="my-1" href="./home/submissions.html">Submission</a>
+            <a class="my-1" href="./home/keynoteSpeakers.html">Keynotes</a>
+            <a class="my-1" href="./home/organizers.html">Organizers</a>
+            <a class="my-1" href="./home/importantDates.html">Important Dates</a>
         </div>
 
 
@@ -74,53 +76,68 @@
         </div> -->
 
         <div>
-            <ul id="NavBarLargeScreen" class="flex w-[3/5] font-sora">
+            <ul id="NavBarLargeScreen" class="flex w-[3/5] font-sora 
+            lg:mt-4">
 
                 <a class="relative" href="./index.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline41">About Us</li>
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline41">About Us</li>
                 </a>
 
 
                 <a class="relative" href="./home/committees.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline1">Committe</li>
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline1">Committe</li>
                 </a>
 
                 
 
                 <a class="relative" href="./home/registration.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline2">Registration</li>
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline2">Registration</li>
                 </a>
 
-                <a class="relative" href="">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline3">Gallery</li>
-                </a>
-
-
-                <a class="relative" href="./home/venue.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline5">Venue</li>
+                <a class="relative" href="./home/callForPapers.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline3">Call For Papers</li>
                 </a>
 
 
-
-                <a class="relative" href="./home/technicalProgramCommittee.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline6">Technical Committe</li>
+                <a class="relative" href="#ContactUs">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline5">Contact Us</li>
                 </a>
 
-                <a class="relative" href="./home/advisoryCommittee.html">
-                    <li class="mr-8 text-xl font-extrabold text-[#393464]
-                2xl:mr-12 pointer HoverUnderline7">Advisory Committee</li>
+
+
+                <a class="relative" href="./home/submissions.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline6">Submission</li>
+                </a>
+
+                <a class="relative" href="./home/keynoteSpeakers.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline7">Keynotes</li>
+                </a>
+
+
+                <a class="relative" href="./home/organizers.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline7">Organizers</li>
+                </a>
+
+
+                <a class="relative" href="./home/importantDates.html">
+                    <li class="mr-8 text-lg font-extrabold text-[#393464]
+                2xl:mr-8 pointer HoverUnderline7">Important Dates</li>
                 </a>
             </ul>
         </div>
 
 
     </div>
+
+    <!-- navbar ends -->
 
 
 
@@ -139,7 +156,7 @@
         sm:text-xl sm:mr-0 sm:ml-1 sm:mb-1
         lg:text-2xl
          xl:text-3xl
-         2xl:text-7xl">
+         2xl:text-4xl">
             1st International Conference on
         </p>
 
@@ -151,9 +168,9 @@
         sm:text-5xl
         lg:text-7xl lg:z-10
         xl:text-8xl
-        2xl:text-[8rem]
+        2xl:text-8xl
         ">
-            Cognitive & Cloud Computing
+            Cognitive & Cloud <br> Computing
         </p>
         <!-- 
         <img id="conferenceLogoLowOpacity" src="./assets/png/officialLogoBig.png" alt=""> -->
@@ -186,7 +203,7 @@
                 <p class="font-sora text-sm text-[#393464]
                 lg:text-lg
                 2xl:text-xl
-            ">1st February 2024 - 2nd February 2024</p>
+            ">1st August 2024 - 2nd August 2024</p>
             </div>
 
 
@@ -234,7 +251,7 @@
 
 
     <!-- THE SLIDING SECTION -->
-    <div id="SlidingSection" class="">
+    <!-- <div id="SlidingSection" class="">
 
         <div class="slidingWritingWrapper">
             <p class="slidingLines slidingLine1 font-sora">Welcome To</p>
@@ -242,11 +259,11 @@
         </div>
 
 
-        <div id="image1" class="imageSliders"></div>
+        <div id="image1" class="imageSliders"></div> -->
         <!-- <div id="image2" class="imageSliders"></div>
         <div id="image3" class="imageSliders"></div> -->
 
-    </div>
+    <!-- </div> -->
 
 
 
@@ -296,15 +313,15 @@
             <div class="gridCellsHeading">Events</div>
             <div class="gridCellsHeading">DeadLine</div>
             <div class="gridCells">Full Paper Submission</div>
-            <div class="gridCells2">18th October 2023</div>
+            <div class="gridCells2">28/02/2024</div>
             <div class="gridCells">Acceptance Notification</div>
-            <div class="gridCells2">4th November 2023</div>
+            <div class="gridCells2">20/05/2024</div>
             <div class="gridCells Special">Camera Ready Paper Submission Deadline</div>
-            <div class="gridCells2">30th November 2023</div>
+            <div class="gridCells2">31/05/2024</div>
             <div class="gridCells">Registration</div>
-            <div class="gridCells2">15th December 2023</div>
+            <div class="gridCells2">05/07/2024</div>
             <div class="gridCells">Conference Date</div>
-            <div class="gridCells2">01-02 February 2024</div>
+            <div class="gridCells2">01-02/08/2024</div>
 
         </div>
 
@@ -323,7 +340,7 @@
 
 
         <!-- THE UPDATES SECTION -->
-        <div id="TheUpdateSection" class="sm:absolute">
+        <!-- <div id="TheUpdateSection" class="sm:absolute">
 
             <div>
                 <p class="font-sora font-black text-4xl text-[#393464] my-4
@@ -345,9 +362,10 @@
 
             </ul>
 
-        </div>
+        </div> -->
 
         <!-- MAKING SPACE FOR THE UPDATE SECTION -->
+        <!-- <div class="lineBreak2"></div>
         <div class="lineBreak2"></div>
         <div class="lineBreak2"></div>
         <div class="lineBreak2"></div>
@@ -355,8 +373,7 @@
         <div class="lineBreak2"></div>
         <div class="lineBreak2"></div>
         <div class="lineBreak2"></div>
-        <div class="lineBreak2"></div>
-        <div class="lineBreak2"></div>
+        <div class="lineBreak2"></div> -->
 
 
 
@@ -451,7 +468,7 @@
                 <!-- ADDING THE EMAILS FOR Prof. Jyoti Khandelwal MAM -->
                 <div class="sm:mt-4 flex flex-col">
                     <a href="mailto: jyoti.khandelwal@uem.edu.in" class="text-lg font-black text-[#393464]">Prof. Jyoti Khandelwal</a>
-                    <a class="text-lg" href="mailto: jyoti.khandelwal@uem.edu.in">sagarika.ghosh@uem.edu.in</a>
+                    <a class="text-lg" href="mailto: jyoti.khandelwal@uem.edu.in">jyoti.khandelwal@uem.edu.in</a>
                 </div>
             </div>
 
@@ -516,6 +533,16 @@
 
             }
             
+        }
+
+
+
+        {
+
+            function goHome(){
+
+                window.open("./index.html","_self");
+            }
         }
     </script>
 
